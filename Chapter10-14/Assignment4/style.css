@@ -1,0 +1,19 @@
+.myButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=button]{
+    width: 45%;
+    margin: 10px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid gold;
+    font-weight: 500;
+}
+
+.myCol{
+    border: 2px solid black;
+    border-radius: 8px;
+}
