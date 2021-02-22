@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <script src="task1.js"></script>
     <title>Assignment 1</title>
 </head>
@@ -16,5 +17,107 @@
         <div class="jumbotron">
           <h1>Assignment 1</h1>          
       </div>
+
+      <div class="container">
+          <h1 class="text-center">STUDENT RECORD</h1>
+          <div class="row">
+              <div class="col-md-4">
+                <form>
+                    <div class="form-group">
+                        <label>Roll Number</label>
+                        <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter your roll number "
+                        id="rollNumber"
+                        
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Program</label>
+                        <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter your program "
+                        id="program"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter your first name "
+                        id="fname"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter your last name "
+                        id="lname"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input 
+                        type="email" 
+                        class="form-control" 
+                        placeholder="Enter your email address "
+                        id="email"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input 
+                        type="number" 
+                        class="form-control" 
+                        placeholder="Enter your phone number "
+                        id="phone"
+                        
+                        >
+                    </div>
+
+
+                </form>
+                <button class="btn btn-primary btn-block" onclick="studentRecord()">Add Record</button>
+              </div>
+
+              <div class="col-md-8">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Roll Number</th>
+                                <th>Program</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Email</th>
+                                <th>Phone Number</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td id="showRoll"></td>
+                                <td id="pro"></td>
+                                <td id="firstname"></td>
+                                <td id="lastname"></td>
+                                <td id="myemail"></td>
+                                <td id="num"></td>
+                            </tr>
+                        </tbody>
+                    </div>
+              </div>
+          </div>
+      </div>
+
+
 </body>
 </html>
