@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="task5.css">
+    <script src="task6.js"></script>
+    <title>Assignment 4</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+          <h1>Assignment 4</h1>          
+      </div>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 mx-auto">
+                  <h1><strong>Marksheet</strong></h1>
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th>HTML</th>
+                              <th>CSS</th>
+                              <th>JavaScript</th>
+                              <th>Bootstrap</th>
+                              <th>Node JS</th>
+                          </tr>
+                      </thead>
+
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <input type="text" class="form-control" id="first">
+                              </td>
+
+                              <td>
+                                <input type="text" class="form-control" id="second">
+                              </td>
+
+                              <td>
+                                <input type="text" class="form-control" id="third">
+                              </td>
+
+                              <td>
+                                <input type="text" class="form-control" id="fourth">
+                              </td>
+
+                              <td>
+                                <input type="text" class="form-control" id="fifth">
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+
+              <div class="col-md-8 mx-auto myCol">
+                <h6>Total Marks</h6>
+                <p>500</p>
+                <button class="btn btn-primary" onclick="myFunc()">Obtained Marks</button>
+                <p id="obtain">
+                    
+                </p>
+
+                <h6>Percentage</h6>
+                
+                <p id="percent">
+                    
+                </p>
+
+                <input class="btn btn-warning" type="reset" value="Reset" onclick="myReset()">
+            </div>
+          </div>
+      </div>
+</body>
+</html>

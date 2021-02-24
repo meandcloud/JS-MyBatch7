@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="task4.css">
     <script src="task4.js"></script>
     <title>Assignment 4</title>
 </head>
@@ -15,6 +16,51 @@
     <div class="container">
         <div class="jumbotron">
           <h1>Assignment 4</h1>          
+      </div>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 mx-auto">
+                  <h1 class="text-center"><strong>Simple Calculator</strong></h1>
+
+                  <form id="myForm">
+                      <div class="form-group">
+                          <label>Enter Your First Number:</label>
+                          <input 
+                          type="text" 
+                          class="form-control" 
+                          placeholder="Enter number"
+                          id="firstNumber"
+                          
+                          >
+                      </div>
+
+                      <div class="form-group">
+                        <label>Enter Your Second Number:</label>
+                        <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter number"
+                        id="secondNumber"
+                        
+                        >
+                    </div>
+                
+                  </form>
+
+                  <div class="mybutton">
+                
+                    <button type="reset" class="btn btn-warning" onclick="myReset()">Clear</button>
+                    
+                    <button class="btn btn-success" onclick="myFunc()">Submit</button>
+                    <label id="result">Answer: 
+                      
+                    </label>
+
+                  
+                </div>
+              </div>
+          </div>
       </div>
 </body>
 </html>

@@ -1,0 +1,16 @@
+.mybutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#result{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    height: 50px;
+    width: 40%;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+

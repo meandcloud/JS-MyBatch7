@@ -1,0 +1,16 @@
+.myCol{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.myCol p{
+    display: flex;
+    align-items: center;
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
