@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="improved.js"></script> 
+  <title>Assignment 8</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+          <h1>Assignment 8</h1>      
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control"
+                placeholder="Enter your name: " 
+                id="name">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control"
+                placeholder="Enter your month: " 
+                id="month">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control"
+                placeholder="Enter your date: " 
+                id="date">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control"
+                placeholder="Enter your year: " 
+                id="year">
+              </div>
+
+              <div class="form-group">
+                <input type="date" class="form-control" id="myDOB">
+              </div>
+
+
+            </form>
+            <button class="btn btn-success btn-block" onclick="myfunc()">Submit</button>
+            <button class="btn btn-info btn-block" onclick="myTimeOnEarth()">Days you spent on earth</button>
+            <button class="btn btn-primary btn-block" onclick="nextBirthDay()">My Next Birthday</button>
+          </div>
+
+          <div class="col-md-8">
+            <div class="myInfo">
+              <h1><strong>Welcome App</strong></h1>
+              <p id="info">
+              </p>
+            </div>
+
+            <div class="myMSG">
+              <p id="msg">
+              
+              </p>
+           
+            </div>
+
+        
+
+            <div class="daysOnEarth">
+              <h5>Days you have spent on earth since you were born</h5>
+              <p id="daysOnEarth">    
+              </p>
+              <h5>Your age in detail: </h5>
+              <p  id="ageInDetail">
+
+              </p>
+            </div>
+
+
+            <div class="nextBirthDay">
+              <h5>Time left to my next birthday</h5>
+              <p id="nextBirthDay">
+
+              </p>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
